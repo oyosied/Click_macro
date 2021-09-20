@@ -2,10 +2,12 @@
 The script will record your mouse clicks and replay them.
 
 
-When running the script two process will start. 
-The keyboard listener and mouse listener. 
-To start recording your mouse click simply press 1 on the keyboard ( not numpad ).
-Each mouse click will pass the specific location to the on_click function and save it to an array.
+When running the script two process will start , the keyboard listener and mouse listener. 
+Each mouse click will pass the specific location to the on_click function and save it to "both_pos" array.
 
-When you are done , you can make the script replay the click you have done by pressing 'q' on the keyboard.
+To start or stop recording mouse clicks press '1'.
+When you are done , you can make the script replay by pressing 'q' button.
+To reset the clicks press 'r'.
+Press ESC to stop the program.
+
 
