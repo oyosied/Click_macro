@@ -30,8 +30,12 @@ def on_press(key):
     global pressed_key
     global recording_flag
     global replay_flag
+    global both_pos
     if 'Key.esc' in str(key):
         return False
+    if 'r' in str(key):
+        both_pos = []
+        print("Clicks are cleared ...")
     if '1' in str(key):
         recording_flag = False if recording_flag else True
         replay_flag = False
